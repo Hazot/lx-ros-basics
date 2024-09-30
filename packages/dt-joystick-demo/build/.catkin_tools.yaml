@@ -1,0 +1,6 @@
+devel_space: /code/lx-ros-basics/packages/dt-joystick-demo/devel
+install: false
+install_space: /code/lx-ros-basics/packages/dt-joystick-demo/install
+profile: default
+source_space: /code/lx-ros-basics/packages/dt-joystick-demo/src
+workspace: /code/lx-ros-basics/packages/dt-joystick-demo

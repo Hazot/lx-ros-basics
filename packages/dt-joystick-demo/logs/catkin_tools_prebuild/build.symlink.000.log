@@ -1,0 +1,12 @@
+Symlinking /code/lx-ros-basics/packages/dt-joystick-demo/devel/./setup.sh
+Symlinking /code/lx-ros-basics/packages/dt-joystick-demo/devel/./local_setup.zsh
+Symlinking /code/lx-ros-basics/packages/dt-joystick-demo/devel/./cmake.lock
+Symlinking /code/lx-ros-basics/packages/dt-joystick-demo/devel/./local_setup.bash
+Symlinking /code/lx-ros-basics/packages/dt-joystick-demo/devel/./_setup_util.py
+Symlinking /code/lx-ros-basics/packages/dt-joystick-demo/devel/./env.sh
+Symlinking /code/lx-ros-basics/packages/dt-joystick-demo/devel/./local_setup.sh
+Symlinking /code/lx-ros-basics/packages/dt-joystick-demo/devel/./setup.bash
+Symlinking /code/lx-ros-basics/packages/dt-joystick-demo/devel/./setup.zsh
+Symlinking /code/lx-ros-basics/packages/dt-joystick-demo/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Symlinking /code/lx-ros-basics/packages/dt-joystick-demo/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /code/lx-ros-basics/packages/dt-joystick-demo/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
