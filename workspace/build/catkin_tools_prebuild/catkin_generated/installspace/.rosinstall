@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /code/lx-ros-basics/workspace/install/setup.sh

@@ -1,0 +1,6 @@
+devel_space: /code/lx-ros-basics/workspace/devel
+install: false
+install_space: /code/lx-ros-basics/workspace/install
+profile: default
+source_space: /code/lx-ros-basics/workspace/src
+workspace: /code/lx-ros-basics/workspace

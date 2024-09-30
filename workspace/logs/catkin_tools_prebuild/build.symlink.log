@@ -1,0 +1,12 @@
+Symlinking /code/lx-ros-basics/workspace/devel/./setup.sh
+Symlinking /code/lx-ros-basics/workspace/devel/./local_setup.zsh
+Symlinking /code/lx-ros-basics/workspace/devel/./cmake.lock
+Symlinking /code/lx-ros-basics/workspace/devel/./local_setup.bash
+Symlinking /code/lx-ros-basics/workspace/devel/./_setup_util.py
+Symlinking /code/lx-ros-basics/workspace/devel/./env.sh
+Symlinking /code/lx-ros-basics/workspace/devel/./local_setup.sh
+Symlinking /code/lx-ros-basics/workspace/devel/./setup.bash
+Symlinking /code/lx-ros-basics/workspace/devel/./setup.zsh
+Symlinking /code/lx-ros-basics/workspace/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Symlinking /code/lx-ros-basics/workspace/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /code/lx-ros-basics/workspace/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake

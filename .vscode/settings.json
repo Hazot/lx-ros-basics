@@ -18,7 +18,7 @@
     },
     "workbench.tree.indent": 24,
     "notebook.dragAndDropEnabled": false,
-    "workbench.colorTheme": "Default Light+",
+    "workbench.colorTheme": "Julia (Monokai Vibrant)",
     "workbench.iconTheme": "vs-minimal",
     "editor.suggest.showIcons": true
 }
