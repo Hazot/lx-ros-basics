@@ -1,6 +1,7 @@
 <package>
-	<name>my_package</name>
-	<version>0.0.1</version>
+  <name>my_package</name>
+  <version>0.0.1</version>
+  <description>
 	My first Catkin package in Duckietown.
   </description>
   <maintainer email="kevin.lessard@umontreal.ca">Kevin Lessard</maintainer>
