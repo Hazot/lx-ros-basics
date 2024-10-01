@@ -8,10 +8,10 @@ from duckietown_msgs.msg import WheelsCmdStamped
 
 class DTJoystickDemoNode:
     def __init__(self):
-        veh_name = os.environ["VEHICLE_NAME"]
-        self.sub_joy = rospy.Subscriber(f"/{veh_name}/joy", Joy, self.process_joy)
+        self.veh_name = os.environ["VEHICLE_NAME"]
+        self.sub_joy = rospy.Subscriber(f"/{self.veh_name}/joy", Joy, self.process_joy)
         self.pub_wheels_cmds = rospy.Publisher(
-            f"/{veh_name}/wheels_driver_node/wheels_cmd", WheelsCmdStamped
+            f"/{self.veh_name}/wheels_driver_node/wheels_cmd", WheelsCmdStamped
         )
 
     def process_joy(self, msg):
