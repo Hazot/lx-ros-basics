@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import os
 import rospy
 from sensor_msgs.msg import Joy
 from duckietown_msgs.msg import WheelsCmdStamped
@@ -7,9 +8,10 @@ from duckietown_msgs.msg import WheelsCmdStamped
 
 class DTJoystickDemoNode:
     def __init__(self):
-        self.sub_joy = rospy.Subscriber("/agent/joy", Joy, self.process_joy)
+        veh_name = os.environ["VEHICLE_NAME"]
+        self.sub_joy = rospy.Subscriber(f"/{veh_name}/joy", Joy, self.process_joy)
         self.pub_wheels_cmds = rospy.Publisher(
-            "/agent/wheels_driver_node/wheels_cmd", WheelsCmdStamped
+            f"/{veh_name}/wheels_driver_node/wheels_cmd", WheelsCmdStamped
         )
 
     def process_joy(self, msg):
